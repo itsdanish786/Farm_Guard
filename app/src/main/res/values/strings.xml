@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Farm Guard</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID_HERE</string>
+    <string-array name="farm_types">
+        <item>Crop</item>
+        <item>Livestock</item>
+        <item>Aquaculture</item>
+        <item>Poultry</item>
+    </string-array>
+</resources>

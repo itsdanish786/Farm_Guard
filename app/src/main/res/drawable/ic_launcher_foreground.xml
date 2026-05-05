@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Hexagonal Frame -->
+    <path
+        android:pathData="M54,20 L84,37.5 L84,72.5 L54,90 L24,72.5 L24,37.5 Z"
+        android:fillColor="#222831"
+        android:strokeColor="#393E46"
+        android:strokeWidth="4"/>
+
+    <!-- Glowing Circuit Lines (Conceptual) -->
+    <path
+        android:pathData="M54,55 L54,80 M54,65 L44,60 M54,65 L64,60"
+        android:strokeColor="#00ADB5"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+
+    <!-- Central Hexagon -->
+    <path
+        android:pathData="M54,48 L61,52 L61,60 L54,64 L47,60 L47,52 Z"
+        android:fillColor="#22C55E"/>
+
+    <!-- Sprout/Leaves -->
+    <path
+        android:pathData="M54,50 C54,50 65,30 75,30 C65,30 54,45 54,50 Z"
+        android:fillColor="#22C55E"/>
+    <path
+        android:pathData="M54,50 C54,50 43,35 33,35 C43,35 54,45 54,50 Z"
+        android:fillColor="#22C55E"
+        android:fillAlpha="0.8"/>
+</vector>
